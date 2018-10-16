@@ -1,3 +1,5 @@
+package MainCalculatrice;
+
 import controller.ActionSwitch;
 import model.*;
 import view.MainView;
@@ -5,7 +7,7 @@ import view.MainView;
 /**
  * Created by Kleyman on 20/09/2018.
  */
-public class Main {
+public class MainCalculatrice {
 
     public static void main(String args[]) {
         ActionSwitch.bindDefaultKeyAndButtonsToActions();

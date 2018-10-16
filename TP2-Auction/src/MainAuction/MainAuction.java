@@ -1,4 +1,4 @@
-package Main;
+package MainAuction;
 
 import Article.*;
 import Server.Auction;
