@@ -29,7 +29,7 @@ public class MainView {
         this.hexaView=new HexaView(calcModel);
         this.binView=new BinView(calcModel);
         JPanel jpanel=new JPanel();
-        jpanel.setLayout(new GridLayout(1,2));
+        jpanel.setLayout(new GridLayout(1,3));
         jpanel.add(decView);
         jpanel.add(hexaView);
         jpanel.add(binView);

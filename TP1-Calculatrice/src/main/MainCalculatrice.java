@@ -1,4 +1,4 @@
-package MainCalculatrice;
+package main;
 
 import controller.ActionSwitch;
 import model.*;

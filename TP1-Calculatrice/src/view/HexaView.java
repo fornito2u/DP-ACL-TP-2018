@@ -60,7 +60,6 @@ public class HexaView extends JPanel implements Observer {
         for (int i = 0; i < numberButtons.length; i++) {
             numberButtons[i] = new JButton(" " + Integer.toHexString(i).toUpperCase() + " ");
             numberButtons[i].addActionListener(new ButtonListener(calcModel,("h"+Integer.toHexString(i))));
-            System.out.println("h"+Integer.toHexString(i));
         }
 
         // default layout = BorderLayout.CENTER
