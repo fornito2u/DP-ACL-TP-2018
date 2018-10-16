@@ -216,52 +216,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TP1-Calculatrice">
+  <component name="RunManager" selected="Application.TP4-CarnetAdresse">
     <configuration name="TP1-Calculatrice" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="main.MainCalculatrice" />
       <module name="TP1-Calculatrice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TP1-Calculatrice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="TP2-Auction" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="MainAuction.MainAuction" />
       <module name="TP2-Auction" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/TP2-Auction" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="TP3-Concours" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="MainConcours.MainConcours" />
       <module name="TP3-Concours" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/TP3-Concours" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    </configuration>
+    <configuration name="TP4-CarnetAdresse" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="MainCarnetAdresse.MainCarnetAdresse" />
+      <module name="TP4-CarnetAdresse" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/TP4-CarnetAdresse" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TP4-CarnetAdresse" />
       <item itemvalue="Application.TP2-Auction" />
       <item itemvalue="Application.TP1-Calculatrice" />
       <item itemvalue="Application.TP3-Concours" />
