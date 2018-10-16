@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DP-TP-2018.iml" filepath="$PROJECT_DIR$/DP-TP-2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP1-Calculatrice/TP1-Calculatrice.iml" filepath="$PROJECT_DIR$/TP1-Calculatrice/TP1-Calculatrice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP2-Auction/TP2-Auction.iml" filepath="$PROJECT_DIR$/TP2-Auction/TP2-Auction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP3-Concours/TP3-Concours.iml" filepath="$PROJECT_DIR$/TP3-Concours/TP3-Concours.iml" />
+    </modules>
+  </component>
+</project>
