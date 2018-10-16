@@ -1,5 +1,5 @@
-#out class
-out/*
+#out directory
+out/
 
 # Compiled class file
 *.class
