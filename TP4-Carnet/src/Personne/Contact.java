@@ -1,4 +1,4 @@
-package MainCarnetAdresse;
+package Personne;
 
 import java.util.ArrayList;
 import java.util.Iterator;

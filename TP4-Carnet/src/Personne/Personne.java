@@ -1,4 +1,4 @@
-package MainCarnetAdresse;
+package Personne;
 
 public class Personne {
 	
@@ -33,6 +33,10 @@ public class Personne {
 
 	public void setAdresse(String adresse) {
 		this.adresse = adresse;
+	}
+
+	public String parse(String separator){
+		return nom + separator + prenom + separator + adresse;
 	}
 
 }
