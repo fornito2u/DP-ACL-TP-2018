@@ -7,10 +7,14 @@ import java.util.Iterator;
 
 public class Annuaire implements Iterable<Personne> {
 	
-	ArrayList<Personne> personnes;
+	ArrayList<Personne> personnes = new ArrayList<Personne>();
 	
 	public Annuaire() {
 		
+	}
+
+	public void add(Personne p){
+		personnes.add(p);
 	}
 
 	@Override

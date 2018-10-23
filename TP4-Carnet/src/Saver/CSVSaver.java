@@ -20,25 +20,24 @@ public class CSVSaver implements Saver{
 
 	@Override
 	public boolean save(Annuaire annuaire) {
-		//try {
-			//FileWriter writer = new FileWriter(pathToFile);
+		try {
+			FileWriter writer = new FileWriter(pathToFile);
 
 			String csvSeparator = ",";
 
 
 
 			for(Personne p : annuaire){
-				System.out.println(p.parse(csvSeparator));
-				/*writer.append(p.parse(csvSeparator));
+				writer.append(p.parse(csvSeparator));
 				writer.append('\n');
-				writer.flush();//*/
+				writer.flush();
 			}
 
-			//writer.close();
+			writer.close();
 
-		/*} catch(IOException e) {
+		} catch(IOException e) {
 			return false;
-		}//*/
+		}
 
 		return true;
 	}

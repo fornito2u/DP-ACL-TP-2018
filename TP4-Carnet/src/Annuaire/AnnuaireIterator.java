@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 public class AnnuaireIterator implements Iterator<Personne> {
 	private Annuaire ann;
-	private int i = -1;
+	private int i = 0;
 
 	public AnnuaireIterator(Annuaire annuaire){
 		ann = annuaire;
@@ -21,7 +21,7 @@ public class AnnuaireIterator implements Iterator<Personne> {
 
 	@Override
 	public Personne next() {
-		return ann.personnes.get(++i);
-		//On incremente AVANT (++i et pas i++) pour prendre le suivant
+		return ann.personnes.get(i++);
+		//On incremente APRES (i++ et pas ++i) pour qu'au prochain appel on soit au suivant
 	}
 }
