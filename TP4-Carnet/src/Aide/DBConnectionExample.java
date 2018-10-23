@@ -29,7 +29,7 @@ public class DBConnectionExample {
             //requête hardcodée
             String queryStringInsert = "INSERT INTO JCB.CONTACT (CONTACT.nom, CONTACT.prenom, CONTACT.email) VALUES ('TOTO', 'toto', 't.toto@toto.fr')";
             //requête paramétrée, mieux
-            String queryStringInsert2 = "INSERT INTO Contact (nom, prenom, email) VALUES (?, ?, ?)";
+            String queryStringInsert2 = "INSERT INTO Annuaire (nom, prenom, email) VALUES (?, ?, ?)";
             //Hardcodées, à vous de les paramétrer au besoin
             String queryStringUpdate = "UPDATE contact SET nom='Toto' WHERE nom='TOTO'";
             String queryStringDelete = "DELETE from contact where contact.nom='Toto'";
@@ -61,7 +61,7 @@ public class DBConnectionExample {
             //INSERT INTO JCB.CONTACT (CONTACT.nom, CONTACT.prenom, CONTACT.email) VALUES ('TOTO', 'toto', 't.toto@toto.fr')
             int res = stmt.executeUpdate(queryStringInsert);
             //insertion avec la requête paramétrée
-            //INSERT INTO Contact (nom, prenom, email) VALUES (?, ?, ?)
+            //INSERT INTO Annuaire (nom, prenom, email) VALUES (?, ?, ?)
             stmt2 = c.prepareStatement(queryStringInsert2);
             stmt2.setString(1, "TITI");
             stmt2.setString(2, "titi");
