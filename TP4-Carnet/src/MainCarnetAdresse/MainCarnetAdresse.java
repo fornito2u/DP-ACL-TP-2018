@@ -3,6 +3,7 @@ package MainCarnetAdresse;
 import Personne.Personne;
 import Saver.*;
 import Annuaire.*;
+import Loader.*;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,15 +14,27 @@ public class MainCarnetAdresse {
 	public static final String ENDLINE = System.getProperty("line.separator");
 	//Le \n ne fonctionne pas sur tous les OS, ce line.separator si.
 
+	public static final String CURR_DIR = System.getProperty("user.dir");
+
 	public static void main(String[] args) {
+
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		boolean continuer = true;
-		Annuaire carnet = new Annuaire();
+		Annuaire annuaire = new Annuaire();
 		String input;
 		String nom, prenom, adresse;
 
 
 		ConsoleParser consP = new ConsoleParser();
+
+		CSVSaver csvS = new CSVSaver(CURR_DIR + "/src/Aide/addressbookPERSO.csv");
+
+
+		ArrayList<Loader> loaders = new ArrayList<Loader>();
+		loaders.add(new CSVLoader(CURR_DIR + "/src/Aide/addressbook.csv"));
+
+		for(Loader l : loaders)
+			l.load(annuaire);
 
 		while(continuer){
 			System.out.println(ENDLINE + ENDLINE + ENDLINE);
@@ -47,7 +60,7 @@ public class MainCarnetAdresse {
 							System.out.println("Adresse:");
 							adresse = br.readLine();
 
-							carnet.add(new Personne(nom, prenom, adresse));
+							annuaire.add(new Personne(nom, prenom, adresse));
 
 
 						}catch (IOException e){
@@ -57,11 +70,11 @@ public class MainCarnetAdresse {
 						break;
 
 					case "2":
-						consP.save(carnet);
+						consP.save(annuaire);
 						break;
 
 					case "3":
-						System.out.println("PAS ENCORE FONCTIONNEL");
+						csvS.save(annuaire);
 						break;
 
 					case "4":
