@@ -1,23 +1,47 @@
-package Loader;
+package DAO;
 
 import Annuaire.Annuaire;
 import Personne.Personne;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
-public class CSVLoader implements Loader {
+public class CsvDAO implements ContactDAO {
 	private String pathToFile;
 
-	public CSVLoader(String pathToFile){
+	public CsvDAO(String pathToFile){
+		config(pathToFile);
+	}
+
+	public void config(String pathToFile){
 		this.pathToFile = pathToFile;
 	}
 
+	@Override
+	public boolean save(Annuaire annuaire) {
+		try {
+			FileWriter writer = new FileWriter(pathToFile);
+
+			String csvSeparator = ",";
+
+
+
+			for(Personne p : annuaire){
+				writer.append(p.parse(csvSeparator));
+				writer.append('\n');
+				writer.flush();
+			}
+
+			writer.close();
+			return true;
+
+		} catch(IOException e) {
+		}
+
+		return false;
+	}
 
 	@Override
-	public void load(Annuaire annuaire) {
+	public boolean load(Annuaire annuaire) {
 		BufferedReader br = null;
 		String line;
 
@@ -47,21 +71,22 @@ public class CSVLoader implements Loader {
 				// on aurait pu stocker les informations dans une autre structure de
 				// données un peu plus optimale, bien évidemment (List, Map, etc.)
 			}
+			return true;
 
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			System.out.println("FILE NOT FOUND CsvDAO.");
 		} catch (IOException e) {
-			e.printStackTrace();
+			System.out.println("IOException CsvDAO");
 		} finally {
 			if (br != null) {
 				try {
 					br.close();
 				} catch (IOException e) {
-					e.printStackTrace();
+
 				}
 			}
 		}
 
-		System.out.println("Done.");
+		return false;
 	}
 }

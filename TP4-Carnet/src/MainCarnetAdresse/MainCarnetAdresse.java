@@ -1,9 +1,10 @@
 package MainCarnetAdresse;
 
+import DAO.ConsoleDAO;
+import DAO.ContactDAO;
+import DAO.CsvDAO;
 import Personne.Personne;
-import Saver.*;
 import Annuaire.*;
-import Loader.*;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,9 +15,23 @@ public class MainCarnetAdresse {
 	public static final String ENDLINE = System.getProperty("line.separator");
 	//Le \n ne fonctionne pas sur tous les OS, ce line.separator si.
 
-	public static final String CURR_DIR = System.getProperty("user.dir");
+	public static String CURR_DIR = System.getProperty("user.dir");
 
 	public static void main(String[] args) {
+		{
+			char[] tmp = new char[10];
+			char[] target = {'T','P','4','-','C','a','r','n','e','t'};
+
+			CURR_DIR.getChars(CURR_DIR.length()-10, CURR_DIR.length(), tmp, 0);
+
+			for(int i = 0; i < 10; i++){
+				if(tmp[i] != target[i]){
+					CURR_DIR+="/TP4-Carnet";
+					i = 11;
+				}
+			}
+
+		}
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		boolean continuer = true;
@@ -24,17 +39,12 @@ public class MainCarnetAdresse {
 		String input;
 		String nom, prenom, adresse;
 
+		ArrayList<ContactDAO> daos = new ArrayList<ContactDAO>();
 
-		ConsoleParser consP = new ConsoleParser();
-
-		CSVSaver csvS = new CSVSaver(CURR_DIR + "/src/Aide/addressbookPERSO.csv");
-
-
-		ArrayList<Loader> loaders = new ArrayList<Loader>();
-		loaders.add(new CSVLoader(CURR_DIR + "/src/Aide/addressbook.csv"));
-
-		for(Loader l : loaders)
-			l.load(annuaire);
+		ConsoleDAO Console = new ConsoleDAO();
+		daos.add(Console);
+		CsvDAO Csv = new CsvDAO(CURR_DIR + "/src/Aide/addressbook.csv");
+		daos.add(Csv);
 
 		while(continuer){
 			System.out.println(ENDLINE + ENDLINE + ENDLINE);
@@ -44,6 +54,7 @@ public class MainCarnetAdresse {
 			System.out.println("2) Afficher la liste");
 			System.out.println("3) Enregistrer en CSV");
 			System.out.println("4) Enregistrer en BDD");
+			System.out.println("5) Charger avec tous les DAO");
 
 			try {
 				input = br.readLine();
@@ -70,15 +81,20 @@ public class MainCarnetAdresse {
 						break;
 
 					case "2":
-						consP.save(annuaire);
+						Console.save(annuaire);
 						break;
 
 					case "3":
-						csvS.save(annuaire);
+						Csv.save(annuaire);
 						break;
 
 					case "4":
 						System.out.println("PAS ENCORE FONCTIONNEL");
+						break;
+
+					case "5":
+						for(ContactDAO dao : daos)
+							dao.load(annuaire);
 						break;
 
 					default:
