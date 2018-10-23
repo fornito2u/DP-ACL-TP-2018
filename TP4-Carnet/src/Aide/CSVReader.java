@@ -35,7 +35,7 @@ public class CSVReader {
         // obtient un tableau de chaînes de caractères (pour chaque ligne)
 			  String[] contacts = line.split(csvSeparator);
         //Affichage dans la foulée pour montrer le résultat
-			  System.out.println("Contact #"+i+" : " + contacts[1] + " " + contacts[0] + " (" + contacts[2]+ ")");
+			  System.out.println("Annuaire #"+i+" : " + contacts[1] + " " + contacts[0] + " (" + contacts[2]+ ")");
         // on aurait pu stocker les informations dans une autre structure de
         // données un peu plus optimale, bien évidemment (List, Map, etc.)
         // Ici, on perd le tableau à chaque tour de boucle, il faut donc bien

@@ -1,9 +1,11 @@
 package Saver;
 
-import Personne.*;
+import Annuaire.Annuaire;
 
 import java.io.FileWriter;
 import java.io.IOException;
+
+import Personne.Personne;
 
 public class CSVSaver implements Saver{
 	private String pathToFile;
@@ -17,23 +19,26 @@ public class CSVSaver implements Saver{
 	}
 
 	@Override
-	public boolean save(Contact contact) {
-		try {
-			FileWriter writer = new FileWriter(pathToFile);
+	public boolean save(Annuaire annuaire) {
+		//try {
+			//FileWriter writer = new FileWriter(pathToFile);
 
 			String csvSeparator = ",";
 
-			for(Personne p : contact){
-				writer.append(p.parse(csvSeparator));
+
+
+			for(Personne p : annuaire){
+				System.out.println(p.parse(csvSeparator));
+				/*writer.append(p.parse(csvSeparator));
 				writer.append('\n');
-				writer.flush();
+				writer.flush();//*/
 			}
 
-			writer.close();
+			//writer.close();
 
-		} catch(IOException e) {
+		/*} catch(IOException e) {
 			return false;
-		}
+		}//*/
 
 		return true;
 	}

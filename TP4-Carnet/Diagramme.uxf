@@ -89,14 +89,13 @@ Enregistreur
     <id>UMLClass</id>
     <coordinates>
       <x>312</x>
-      <y>216</y>
+      <y>228</y>
       <w>252</w>
       <h>108</h>
     </coordinates>
-    <panel_attributes>Contact
+    <panel_attributes>Annuaire
 {iterable}
 --
--Annuaire : List
 --</panel_attributes>
     <additional_attributes/>
   </element>
@@ -104,13 +103,14 @@ Enregistreur
     <id>Relation</id>
     <coordinates>
       <x>228</x>
-      <y>240</y>
+      <y>252</y>
       <w>108</w>
-      <h>156</h>
+      <h>144</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+Annuaire
 m1=0..n</panel_attributes>
-    <additional_attributes>70.0;10.0;10.0;10.0;10.0;110.0</additional_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>

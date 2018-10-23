@@ -1,7 +1,7 @@
 package Saver;
 
-import Personne.Contact;
+import Annuaire.Annuaire;
 
 public interface Saver {
-	boolean save(Contact contact);//Sauvegarde une liste de personne
+	boolean save(Annuaire annuaire);//Sauvegarde une liste de personne
 }
