@@ -9,7 +9,7 @@ package Conteneur;
  * Erreur de conteneur
  * @author urso
  */
-class ErreurConteneur extends Exception {
+public class ErreurConteneur extends Exception {
 
     public ErreurConteneur(String string) {
         super(string);
