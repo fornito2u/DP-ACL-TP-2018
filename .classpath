@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="TP1-Calculatrice/src"/>
-	<classpathentry kind="src" path="TP5-RMI/src"/>
 	<classpathentry kind="src" path="TP2-Auction/src"/>
 	<classpathentry kind="src" path="TP3-Concours/src"/>
 	<classpathentry kind="src" path="TP4-Carnet/src"/>
+	<classpathentry kind="src" path="TP5-RMI/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="TP1-Calculatrice/bin"/>
 </classpath>
