@@ -39,7 +39,7 @@ public interface StockService {
      * @param nomArticle nom de l'article
      * @throws NotBoundException 
      */
-    void buy(String nomArticle) throws IllegalArgumentException;;
+    void buy(String nomArticle) throws IllegalArgumentException;
     
     
     

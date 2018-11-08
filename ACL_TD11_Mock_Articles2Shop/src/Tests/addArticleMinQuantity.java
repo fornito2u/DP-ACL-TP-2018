@@ -1,14 +1,19 @@
+package Tests;
+
 import Classes.Articles2Shop;
 import Classes.Currency;
 import Classes.StockService;
 import org.easymock.EasyMock;
 import org.junit.Before;
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 
-public class Test_General {
+public class addArticleMinQuantity {
 	StockService stock_mock;
 	Articles2Shop shop;
+	String article = "chaussure";
+	Currency prix = new Currency(10, "€");
 
 	@Before
 	public void creation(){
@@ -17,11 +22,7 @@ public class Test_General {
 	}
 
 	@Test
-	public void addArticleStrictQuantityNormal(){
-		String article = "chaussure";
-		Currency prix = new Currency(10, "€");
-		EasyMock.expect(stock_mock.available(article)).andReturn(5);
-
+	public void normal(){
 		stock_mock.buy(article);
 		stock_mock.buy(article);
 		stock_mock.buy(article);
@@ -30,7 +31,24 @@ public class Test_General {
 
 		EasyMock.replay(stock_mock);
 
-		assertEquals(3, shop.addArticleStrictQuantity(article, 3));
+		assertEquals(3, shop.addArticleMinQuantity(article,3));
+
+		EasyMock.verify(stock_mock);
+	}
+
+	@Test
+	public void pasAssezEnStock(){
+		stock_mock.buy(article);
+		stock_mock.buy(article);
+
+		stock_mock.buy(article);
+		EasyMock.expectLastCall().andThrow(new IllegalArgumentException());
+
+		EasyMock.expect(stock_mock.getPrix(article)).andReturn(prix);
+
+		EasyMock.replay(stock_mock);
+
+		assertEquals(2, shop.addArticleMinQuantity(article, 3));
 
 		EasyMock.verify(stock_mock);
 	}
