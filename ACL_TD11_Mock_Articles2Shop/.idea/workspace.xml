@@ -2,17 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41f17c48-9c3f-466b-b2c8-3e4c5b0dd0a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/easymock_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Promo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Promo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Promo/ACL_Promo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Matieres/Matiere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Personnes/Enseignant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Personnes/Etudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Personnes/Intervenant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Personnes/Personne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Personnes/Professeur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Promos/Promo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_TD10_JUnit_Conteneur/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_TD10_JUnit_Conteneur/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_TD10_JUnit_Conteneur/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_TD10_JUnit_Conteneur/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_TD10_JUnit_Conteneur/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_TD10_JUnit_Conteneur/ACL_TD10_JUnit_Conteneur.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_TD10_JUnit_Conteneur/TD10-TestConteneur.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_TD10_JUnit_Conteneur/Tests/Test_Boundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_TD10_JUnit_Conteneur/Tests/Test_Right.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_TD10_JUnit_Conteneur/src/Conteneur/Conteneur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_TD10_JUnit_Conteneur/src/Conteneur/ConteneurImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_TD10_JUnit_Conteneur/src/Conteneur/ErreurConteneur.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACL_Mock.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Articles2Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/StockService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1-Calculatrice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1-Calculatrice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_Mock/.idea/libraries/easymock_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/easymock_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_Mock/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_Promo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_Mock/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_Mock/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_Promo/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_Mock/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_TD10_JUnit_Conteneur/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_Mock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_Mock/ACL_Mock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ACL_Mock.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_Mock/Tests/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_Mock/src/Classes/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_Mock/src/Classes/Articles2Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Articles2Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_Mock/src/Classes/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_Mock/src/Classes/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/StockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5-RMI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP5-RMI/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,9 +79,38 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-577823782">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Classes/Currency.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,8 +132,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="102">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -84,7 +141,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Classes/Articles2Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="204">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,7 +153,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Classes/Article.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="153">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
@@ -145,34 +202,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ACL_Mock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACL_Mock" type="462c0819:PsiDirectoryNode" />
+              <item name="ACL_TD11_Mock_Articles2Shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACL_TD11_Mock_Articles2Shop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ACL_Mock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACL_Mock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACL_Mock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACL_Mock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACL_Mock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACL_Mock" type="462c0819:PsiDirectoryNode" />
+              <item name="ACL_TD11_Mock_Articles2Shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACL_TD11_Mock_Articles2Shop" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -181,8 +227,8 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../Android/sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541687403672" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/easymock-3.1.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541688625885" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/easymock-3.1.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -190,6 +236,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -244,16 +291,13 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26602563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32976446" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -261,27 +305,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Classes/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Classes/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -298,7 +338,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Classes/Articles2Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="204">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -306,10 +346,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Classes/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -390,7 +437,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>easymock-3.1</last-edited>
+          <last-edited>Junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

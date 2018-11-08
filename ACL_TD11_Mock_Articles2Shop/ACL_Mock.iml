@@ -8,6 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Junit:4.12" level="project" />
     <orderEntry type="library" name="easymock-3.1" level="project" />
   </component>
 </module>
