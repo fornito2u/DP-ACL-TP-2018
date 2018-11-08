@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96dcef0e-f9ad-4920-914f-193e941f8353" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Remote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP3-Concours/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP3-Concours/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Mock/.idea/libraries/easymock_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Mock/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Mock/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Mock/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Mock/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Mock/ACL_Mock.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Mock/src/Classes/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Mock/src/Classes/Articles2Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Mock/src/Classes/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ACL_Mock/src/Classes/StockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1-Calculatrice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1-Calculatrice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WarehouseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WarehouseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WarehouseServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WarehouseServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,14 +43,69 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="862401431">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="16" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Remote.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Warehouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/WarehouseImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WarehouseClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WarehouseServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -55,11 +122,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/WarehouseServer.java" />
+        <option value="$PROJECT_DIR$/src/WarehouseImpl.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="127" />
-    <option name="y" value="-9" />
-    <option name="width" value="1918" />
-    <option name="height" value="952" />
+    <option name="x" value="328" />
+    <option name="width" value="1246" />
+    <option name="height" value="719" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -92,6 +166,11 @@
               <item name="TP5-RMI" type="b2602c69:ProjectViewProjectNode" />
               <item name="TP5-RMI" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TP5-RMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TP5-RMI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -99,7 +178,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541596951581" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541687634088" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -117,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.client">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -126,6 +206,20 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="WarehouseClient" />
+      <module name="TP5-RMI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="WarehouseServer" />
+      <module name="TP5-RMI" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,6 +247,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.server" />
+      <item itemvalue="Application.client" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -168,44 +266,67 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32976446" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Remote.java">
+    <entry file="file://$PROJECT_DIR$/src/Remote.java" />
+    <entry file="file://$PROJECT_DIR$/src/WarehouseServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        <state relative-caret-position="187">
+          <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WarehouseClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Warehouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WarehouseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>

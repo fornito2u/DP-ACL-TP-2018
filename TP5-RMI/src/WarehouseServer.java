@@ -11,7 +11,8 @@ public class WarehouseServer {
 		System.out.println("Constructing	server	implementation...");
 		WarehouseImpl centralWarehouse = new WarehouseImpl();
 		System.out.println("Binding	server	implementation	to	registry...");
-		Registry registry = LocateRegistry.getRegistry();
+		//Registry registry = LocateRegistry.getRegistry();
+		Registry registry = LocateRegistry.createRegistry(1099);
 		registry.bind("central_warehouse", (Remote) centralWarehouse);
 		System.out.println("Waiting	for	invocations	from clients...");
 	}
