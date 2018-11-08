@@ -2,45 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb23f1e4-ced2-49d5-9add-ef4c86c31f77" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../ACL_Promo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ACL_Promo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ACL_Promo/ACL_Promo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Matieres/Matiere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Personnes/Enseignant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Personnes/Etudiant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Personnes/Intervenant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Personnes/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Personnes/Professeur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ACL_Promo/src/Promos/Promo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ACL_TD10_JUnit_Conteneur.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TD10-TestConteneur.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Test_Boundary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Test_Right.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Conteneur/Conteneur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Conteneur/ConteneurImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Conteneur/ErreurConteneur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ACL_Mock/.idea/libraries/easymock_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/.idea/libraries/easymock_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ACL_Mock/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_Promo/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ACL_Mock/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ACL_Mock/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_Promo/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ACL_Mock/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ACL_Mock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ACL_Mock/ACL_Mock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/ACL_Mock.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ACL_Mock/Tests/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ACL_Mock/src/Classes/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/src/Classes/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ACL_Mock/src/Classes/Articles2Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/src/Classes/Articles2Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ACL_Mock/src/Classes/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/src/Classes/Currency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ACL_Mock/src/Classes/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/src/Classes/StockService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP5-RMI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP5-RMI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/.idea/libraries/Junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/ACL_Mock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/ACL_Mock.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/Tests/Test_General.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ACL_TD11_Mock_Articles2Shop/Tests/Test_General.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,9 +19,9 @@
     <session id="62112801">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/Test_Boundary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="3" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -116,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,7 +115,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -290,8 +256,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26175213" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2681624" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -353,8 +320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Test_Boundary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="3" selection-end-column="44" />
         </state>
       </provider>
     </entry>
